@@ -1,5 +1,6 @@
 # DatabaseWinForm
-Thư viện giúp thao tác với cơ sở dữ liệu trong winform dễ dàng hơn!
++ Thư viện giúp thao tác với cơ sở dữ liệu trong winform dễ dàng hơn!
++ Thư viện mô phỏng Database: Query Builder của Laravel!
 
 ## Hướng dẫn sử dụng:
 
