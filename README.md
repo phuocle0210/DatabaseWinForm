@@ -63,7 +63,7 @@ Bằng cách như vậy bạn có thể ghi điều kiện `OR` thông qua phư�
 - Lần này cần sử dụng phương thức `create()` của DB. Ví dụ: `DB.table("danh_muc").create()`.
 - Phương thức `create()` sẽ trả về kiểu `DatabaseError`, bạn có thể dùng phương thức `isError()` của `DatabaseError` để kiểm tra lỗi.
 
-+ Cách 1: Bạn cần khai báo `DatabaseInsert`. Sau đó, dùng phương thức `add()` để thêm vào.
++ ### Cách 1: Bạn cần khai báo `DatabaseInsert`. Sau đó, dùng phương thức `add()` để thêm vào.
 - Lưu ý: Phương thức `add()` gồm 2 tham số là `key` và `value`. `Key` đại diện cho tên cột, `value` đại diện cho dữ liệu bạn muốn nhấn vào!
 ````csharp
 DatabaseInsert dbInsert = new DatabaseInsert(); //khai báo đối tượng
@@ -83,7 +83,7 @@ MessageBox.Show("Thêm dữ liệu thành công");
 
 ````
 
-+ Cách 2: Bạn cần khởi tạo ra 2 mảng. `Mảng thứ 1` sẽ điền tên cột và có kiểu `string`, `Mảng thứ 2` sẽ điền giá trị tương ứng và có kiểu `object`.
++ ### Cách 2: Bạn cần khởi tạo ra 2 mảng. `Mảng thứ 1` sẽ điền tên cột và có kiểu `string`, `Mảng thứ 2` sẽ điền giá trị tương ứng và có kiểu `object`.
 ````csharp
 //Khởi tạo 2 List
 string[] key = { "id", "name", "trang_thai" };
